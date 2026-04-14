@@ -157,4 +157,4 @@ Comentario de varias lineas con comillas triples
     # print(saludo("Luis")) #imprime el valor devuelto por la funcion saludo
 #saludo("Luis") #llama a la funcion saludo para ejecutar el codigo que contiene
 
-from Calculadora.operaciones import sumar, restar, multiplicar, dividir #importa las funciones sumar, restar, multiplicar y dividir del modulo operaciones que se encuentra en la carpeta Calculadora
+#from Calculadora.operaciones import sumar, restar, multiplicar, dividir #importa las funciones sumar, restar, multiplicar y dividir del modulo operaciones que se encuentra en la carpeta Calculadora

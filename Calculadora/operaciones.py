@@ -1,19 +1,17 @@
-def sumar(a, b):
-    return a + b #para devolver el resultado de la suma en lugar de imprimirlo
+def sumar( a , b ):
+    return a + b 
 
-def restar(a, b):
-    return a - b #para devolver el resultado de la resta en lugar de imprimirlo
+def restar( a , b ):
+    return a - b 
 
-def multiplicar(a, b):
-    return a * b #para devolver el resultado de la multiplicación en lugar de imprimirlo
+def multiplicar( a , b ):
+    return a * b 
 
-def dividir(a, b):
+def dividir( a , b ):
     try:
-        return a / b
+         return a / b 
     except ZeroDivisionError:
-        print("Resultado: Error - No se puede dividir por cero (0)")
-    except ValueError:
-        print("Resultado: Error - Valor invalido, se esperaba un numero")
+        print("No se puede dividir por cero")
 
 # if y else no permitiria que ocurra el error al dividir por cero, pero el manejo de excepciones con try y except permite manejar el error de manera mas elegante y evitar que el programa se detenga abruptamente, ademas de permitir mostrar un mensaje de error personalizado al usuario.
 
